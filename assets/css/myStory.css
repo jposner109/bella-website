@@ -1,0 +1,172 @@
+p{
+    color: black;
+    text-transform: inherit;
+}
+
+@font-face{
+    font-family: karma;
+    src: url("Karma/Karma-Regular.ttf");
+}
+
+.pageBreak{
+    text-align: center;
+    font-size: 25px;
+    width: 2000px;
+    min-width: 2000px;
+}
+
+.story{
+    font-size: 50px;
+    margin: 125px;
+    font-family: karma;
+    line-height: 60px;
+}
+
+.storySizeController{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 0px 7px black, -7px 0px 7px black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 2000px;
+    max-width: 2000px;
+    height: 1400px;
+    margin: 20px auto;
+    background-color: rgba(250, 150, 100, 0.05);
+    margin-top: -75px;
+}
+
+/*Page one*/
+
+#pageOne{
+}
+
+#bellaOutside{
+/*
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+*/
+    width: 612px;
+    height: 816px;
+    margin-bottom: 200px;
+    top: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+/*
+    border: solid;
+    border-color: rgb(190, 190, 220);
+    border-width: 2px;
+*/
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}
+
+#specialPageBreak{
+    display: block;
+    margin-top: 60px;
+}
+
+#pageOneText{
+/*
+    float: left;
+    width: 900px;
+*/
+}
+
+/*Page two*/
+
+#pageTwo{}
+
+#godImage{
+    width: 257.5px;
+    height: 187.5px;
+    visibility: hidden;
+    position: absolute;
+    bottom: -300px;
+    left: 500px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#bellaGod{
+    font-style: italic;
+}
+
+#snowMovie{
+    display: block;
+    margin: 75px auto;
+    visibility: hidden;
+    transform: scale(1.2,1.2);
+}
+
+#snowDogText{
+    text-align: center;
+    padding: 50px;
+    z-index: -1;
+    display: block;
+}
+
+#bellaSnowButton{
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/*Page three*/
+
+#pageThree{}
+
+#pageThreeStory{
+    margin-bottom: 50px;
+}
+
+#bellaOnGround{
+    position: relative;
+    width: 688.5px;
+    height: 794.8125px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 100px;
+}
+
+#pageThreeStoryOne{
+/*
+    position: relative;
+    width: 900px;
+    bottom: 100px;
+*/
+    margin-top: 50px;
+}
+
+/*Page four*/
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#pageFour{
+    margin-top: 50px;
+}
+
+#pageFourStory{
+    margin-top: 50px;
+}
+
+#bellaSunbeam{
+    width: 860.57px;
+    height: 891.43px;
+    position: relative;
+    border-radius: 10px;
+    float: right;
+    margin-left: 100px;
+}
+
+#pageFourStoryOne{
+    position: relative;
+    bottom: 75px;
+}

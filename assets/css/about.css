@@ -1,0 +1,36 @@
+body{
+    min-width: 1000px;
+}
+
+ul {
+    list-style: square;
+    list-style-position: outside;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 40px;
+/*    margin-left: 490px;*/
+    line-height: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+h1 {
+    font-size: 100px;
+    color: black;
+    font-family: "Times New Roman";
+/*    margin-left: 430px;*/
+    display: inline-block;
+}
+
+#aboutSizeController{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 0px 7px black, -7px 0px 7px black;
+    height: 1050px;
+}
+
+#titleInterests{
+    position: relative;
+    margin: 0 auto;
+    width: 1170px;
+}
