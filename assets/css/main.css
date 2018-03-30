@@ -227,9 +227,9 @@ p{
 }
 
 #moods{
-    position: absolute;
-    bottom: -300px;
-    left: 40px;
+    position: relative;
+    top: 700px;
+    right: 1300px;
     color: white;
     font-size: 20px;
 }
